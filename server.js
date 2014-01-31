@@ -11,7 +11,6 @@ var webSockets = {}; //userID: webSocket
 //Setup Logging
 logger.pipe(require('fs').createWriteStream('/tmp/server.log'));
 logger.log("Logging Started");
-var test = "test";
 
 //Connect /:userID
 var userID = 0;
